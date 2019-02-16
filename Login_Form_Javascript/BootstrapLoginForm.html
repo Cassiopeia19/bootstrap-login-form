@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type = "text/css" href="js/Bootstrap.js">
+	<link rel="stylesheet" type = "text/css" href="css/styles.css">
+<title>Login Form</title>
+</head>
+<body>
+	<form id="myForm">
+	<div class = "container">
+		<div class = "col-md-3">
+		<div class = "form-group col-md-6">
+			<h1 class="text-center">Admin Login</h1>
+		<img src="images/images.jpg">
+		<input type="email" class="form-control" name="Username" placeholder="Username">
+		<input type="password" class="form-control" name="Password" placeholder="Password">
+		<a href="#"><div class="btn btn-info">log in</div></a>
+			<input type="button" class="btn btn-info" onclick="myFunction()" value="reset">
+			<p></p>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#" class="btn-info">Forgot password?</a></span>
+    </div>
+			</div>
+			</div>	
+		</form>
+	<script>
+function myFunction() {
+    document.getElementById("myForm").reset();
+}
+</script>
+
+</body>
+</html>
